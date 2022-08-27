@@ -1,2 +1,2 @@
 # Pulse
-Landing page made by HTML and styles with CSS. 
+Landing page made by HTML and styled with CSS 
