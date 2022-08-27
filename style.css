@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+#Title {
+    background-color: #eafaf1;
+}
+
+
+#top-heading {
+    background-color: #eafaf1;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title-logo {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.avatar {
+   padding-left: 720px;
+   padding-top: 60px;
+   
+}
+
+.basic-body {
+    background-color: #eafaf1;
+}
+
+
+.btn {
+    border-color: #00ad6a;
+}
+
+first_button {
+    background-color: #00ad6a;
+
+}
+
+.pricing {
+    background-color: #eafaf1;
+
+}
+
+.last-heading {
+    width: 39%;
+    margin-left: 488px;
+}
+
+.smb-heading {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.basic-heading {
+    color: #00ad6a;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.pulse-statement{
+    background-color: #eafaf1;
+}
+
+.statement{
+  width: 92rem;
+    padding-left: 459px;
+    padding-right: 459px;
+    padding-top: 20px;
+}
+
+.faq-heading{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.faq-question{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer{
+    background-color:#080c16;
+}
+
+/* PRICING CSS */
+.pricing .card {
+
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+
+
+.pricing hr {
+    margin: 1.5rem 0;
+}
+
+.footer-bg{
+    background-color: #080c16;
+    
+}
+
+
+
+.pricing ul li {
+    margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+    opacity: 0.7;
+}
+
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+    .pricing .card:hover {
+        margin-top: -.25rem;
+        margin-bottom: .25rem;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+
+    .pricing .card:hover .btn {
+        opacity: 1;
+    }
+}
